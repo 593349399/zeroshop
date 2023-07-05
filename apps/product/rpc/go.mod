@@ -9,6 +9,7 @@ require (
 )
 
 require (
+	github.com/593349399/zeroshop v0.0.0-20230705032406-2d52034f8093 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect

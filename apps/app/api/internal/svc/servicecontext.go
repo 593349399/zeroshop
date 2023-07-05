@@ -1,10 +1,10 @@
 package svc
 
 import (
+	"github.com/593349399/zeroshop/apps/app/api/internal/config"
+	"github.com/593349399/zeroshop/apps/order/rpc/order"
+	"github.com/593349399/zeroshop/apps/product/rpc/product"
 	"github.com/zeromicro/go-zero/zrpc"
-	"zeroshop/app/api/internal/config"
-	"zeroshop/order/rpc/order"
-	"zeroshop/product/rpc/product"
 )
 
 type ServiceContext struct {

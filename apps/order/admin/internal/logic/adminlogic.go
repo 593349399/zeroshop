@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"zeroshop/order/admin/internal/svc"
-	"zeroshop/order/admin/internal/types"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/svc"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

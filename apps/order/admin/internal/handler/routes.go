@@ -4,7 +4,7 @@ package handler
 import (
 	"net/http"
 
-	"zeroshop/order/admin/internal/svc"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/svc"
 
 	"github.com/zeromicro/go-zero/rest"
 )

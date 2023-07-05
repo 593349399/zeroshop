@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"zeroshop/order/admin/internal/config"
-	"zeroshop/order/admin/internal/handler"
-	"zeroshop/order/admin/internal/svc"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/config"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/handler"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

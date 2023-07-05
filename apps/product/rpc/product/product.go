@@ -11,6 +11,7 @@ import (
 )
 
 type (
+
 	Product interface {
 		Products(ctx context.Context, in *ProductRequest, opts ...grpc.CallOption) (*ProductResponse, error)
 	}

@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
+	"github.com/593349399/zeroshop/apps/app/api/internal/logic"
+	"github.com/593349399/zeroshop/apps/app/api/internal/svc"
+	"github.com/593349399/zeroshop/apps/app/api/internal/types"
 	"github.com/zeromicro/go-zero/rest/httpx"
-	"zeroshop/app/api/internal/logic"
-	"zeroshop/app/api/internal/svc"
-	"zeroshop/app/api/internal/types"
 )
 
 func OrderListHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {

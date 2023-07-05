@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"zeroshop/order/admin/internal/config"
+	"github.com/593349399/zeroshop/apps/order/admin/internal/config"
 )
 
 type ServiceContext struct {

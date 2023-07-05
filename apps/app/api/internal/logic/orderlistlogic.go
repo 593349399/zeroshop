@@ -2,13 +2,13 @@ package logic
 
 import (
 	"context"
+	"github.com/593349399/zeroshop/apps/order/rpc/order"
+	"github.com/593349399/zeroshop/apps/product/rpc/product"
 	"strconv"
 	"strings"
-	"zeroshop/order/rpc/order"
-	"zeroshop/product/rpc/product"
 
-	"zeroshop/app/api/internal/svc"
-	"zeroshop/app/api/internal/types"
+	"github.com/593349399/zeroshop/apps/app/api/internal/svc"
+	"github.com/593349399/zeroshop/apps/app/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )
