@@ -1,0 +1,6 @@
+Name: product.rpc
+ListenOn: 0.0.0.0:8081
+Etcd:
+  Hosts:
+  - 192.168.101.169:2379
+  Key: product.rpc
