@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"zeroshop/apps/product/rpc/internal/config"
-	"zeroshop/apps/product/rpc/internal/server"
-	"zeroshop/apps/product/rpc/internal/svc"
-	"zeroshop/apps/product/rpc/product"
+	"github.com/593349399/zeroshop/apps/product/rpc/internal/config"
+	"github.com/593349399/zeroshop/apps/product/rpc/internal/server"
+	"github.com/593349399/zeroshop/apps/product/rpc/internal/svc"
+	"github.com/593349399/zeroshop/apps/product/rpc/product"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"

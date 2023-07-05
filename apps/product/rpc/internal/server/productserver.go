@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"zeroshop/apps/product/rpc/internal/logic"
-	"zeroshop/apps/product/rpc/internal/svc"
-	"zeroshop/apps/product/rpc/product"
+	"github.com/593349399/zeroshop/apps/product/rpc/internal/logic"
+	"github.com/593349399/zeroshop/apps/product/rpc/internal/svc"
+	"github.com/593349399/zeroshop/apps/product/rpc/product"
 )
 
 type ProductServer struct {
