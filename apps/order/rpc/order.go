@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/593349399/zeroshop/apps/order/rpc/internal/config"
-	"github.com/593349399/zeroshop/apps/order/rpc/internal/server"
-	"github.com/593349399/zeroshop/apps/order/rpc/internal/svc"
-	"github.com/593349399/zeroshop/apps/order/rpc/order"
+	"zeroshop/apps/order/rpc/internal/config"
+	"zeroshop/apps/order/rpc/internal/server"
+	"zeroshop/apps/order/rpc/internal/svc"
+	"zeroshop/apps/order/rpc/order"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"

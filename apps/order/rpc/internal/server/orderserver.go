@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"github.com/593349399/zeroshop/apps/order/rpc/internal/logic"
-	"github.com/593349399/zeroshop/apps/order/rpc/internal/svc"
-	"github.com/593349399/zeroshop/apps/order/rpc/order"
+	"zeroshop/apps/order/rpc/internal/logic"
+	"zeroshop/apps/order/rpc/internal/svc"
+	"zeroshop/apps/order/rpc/order"
 )
 
 type OrderServer struct {
